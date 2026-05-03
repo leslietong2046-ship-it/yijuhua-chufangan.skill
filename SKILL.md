@@ -2,17 +2,16 @@
 name: yijuhua-chufangan
 description: |
   一句话生成完整方案文档，支持政务/商业/技术多场景自动识别。
-  Triggers: 写方案, 出框架, 帮我做个XXX方案, 建设/推广/推进XXX, 数字化转型, 智慧城市
-  Does NOT trigger: 已有详细需求文档, 要求分析现有方案, 需要市场调研
-  Output: 符合标准格式的完整方案文档（背景+目标+举措+保障+成效）
+  触发关键词：一句话出方案、方案生成、政务方案、技术方案、商业方案、快速出方案、写方案、出框架
 version: 1.0.0
-user-invocable: true
-metadata: {"openclaw": {"requires": {"bins": ["python3"]}}}
+metadata:
+  openclaw:
+    requires:
+      env: []
+      bins: ["python3"]
+    primaryEnv: ""
+    emoji: "📋"
 ---
-
-# 一句话出方案
-
-> **你有没有花3小时憋一个方案框架，最后发现方向全错？**
 > 
 > 别慌，现在你只需要说一句话，我来帮你搞定完整方案文档。
 
