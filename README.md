@@ -6,18 +6,18 @@
 
 ---
 
-## 🆕 v2.0 重大升级：从框架变工具
+## 🆕 v2. 重大升级：从框架变工具
 
 **升级前**：5步思考框架 → **升级后**：一句话进，完整方案文档出
 
-- ✅ 加了输出协议 → 方案结构标准化
-- ✅ 加了直接输出模式 → 不用引导，直接出完整方案
-- ✅ 加了自动场景匹配 → 政务/商业/技术自动识别
-- ✅ 加了Python方案生成器CLI → `demo.py` 可离线生成方案
+- 加了输出协议 → 方案结构标准化
+- 加了直接输出模式 → 不用引导，直接出完整方案
+- 加了自动场景匹配 → 政务/商业/技术自动识别
+- 加了Python方案生成器CLI → `demo.py` 可离线生成方案
 
 ---
 
-## 🎯 功能特性
+## 功能特性
 
 - **一句话输入**：只需描述你的需求，如"建设智慧城市平台"
 - **智能场景识别**：自动识别政务/商业/技术场景
@@ -26,7 +26,7 @@
 
 ---
 
-## 🚀 快速开始
+## 快速开始
 
 ### Coze Skill 使用
 ```markdown
@@ -56,14 +56,14 @@ python demo.py --help
 
 ---
 
-## 💻 CLI 使用示例
+## CLI 使用示例
 
 ```bash
 $ python demo.py "智慧政务平台"
 
-🎯 场景识别：政务场景 (gov.md)
-📝 正在生成方案...
-✅ 方案已生成！
+ 场景识别：政务场景 (gov.md)
+ 正在生成方案...
+ 方案已生成！
 
 # 【智慧政务平台建设方案】
 
@@ -74,33 +74,33 @@ $ python demo.py "智慧政务平台"
 
 ---
 
-## 📁 项目结构
+## 项目结构
 
 ```
 一句话出方案/
-├── SKILL.md           # Coze Skill 定义（输出协议+直接输出模式）
-├── demo.py            # Python 方案生成器 CLI（828行）
-├── requirements.txt   # 依赖列表
-├── README.md          # 本文件
-└── templates/         # 方案模板
-    ├── gov.md         # 政务方案模板（65行）
-    ├── biz.md         # 商业方案模板（89行）
-    └── tech.md        # 技术方案模板（118行）
+├── SKILL.md # Coze Skill 定义（输出协议+直接输出模式）
+├── demo.py # Python 方案生成器 CLI（828行）
+├── requirements.txt # 依赖列表
+├── README.md # 本文件
+└── templates/ # 方案模板
+ ├── gov.md # 政务方案模板（65行）
+ ├── biz.md # 商业方案模板（89行）
+ └── tech.md # 技术方案模板（118行）
 ```
 
 ---
 
-## 🔧 场景自动识别
+## 场景自动识别
 
 | 关键词示例 | 识别场景 | 生成模板 |
 |-----------|---------|---------|
-| 政务、服务大厅、街道、局委办、智慧城市 | 🏛️ 政务 | gov.md |
-| 营销、推广、运营、上市、商业化、市场 | 💼 商业 | biz.md |
-| 系统、平台、架构、技术、API、中台、数据 | 💻 技术 | tech.md |
+| 政务、服务大厅、街道、局委办、智慧城市 | 政务 | gov.md |
+| 营销、推广、运营、上市、商业化、市场 | 商业 | biz.md |
+| 系统、平台、架构、技术、API、中台、数据 | 技术 | tech.md |
 
 ---
 
-## 🔧 模板定制
+## 模板定制
 
 ### 修改模板
 
@@ -119,13 +119,13 @@ $ python demo.py "智慧政务平台"
 |-----|------|------|
 | `{{title}}` | 方案标题 | 智慧城市平台 |
 | `{{area}}` | 区域名称 | XX区 |
-| `{{year}}` | 目标年份 | 2027 |
-| `{{total_budget}}` | 总预算 | 1200 |
+| `{{year}}` | 目标年份 | 227 |
+| `{{total_budget}}` | 总预算 | 12 |
 | ... | ... | ... |
 
 ---
 
-## 📋 输出协议
+## 输出协议
 
 Agent 执行时必须遵循以下输出格式：
 
@@ -156,7 +156,7 @@ Agent 执行时必须遵循以下输出格式：
 
 ---
 
-## 💡 使用口诀
+## 使用口诀
 
 > **"一句话进，自动识别场景，完整方案出来"**
 
@@ -165,30 +165,30 @@ Agent 执行时必须遵循以下输出格式：
 ## ⭐ 给我Star
 
 开源不易，如果对你有用：
-[![Star](https://img.shields.io/github/stars/leslietong2046-ship-it/yijuhua-chufangan.skill?style=social)](https://github.com/leslietong2046-ship-it/yijuhua-chufangan.skill)
+[![Star](https://img.shields.io/github/stars/leslietong246-ship-it/yijuhua-chufangan.skill?style=social)](https://github.com/leslietong246-ship-it/yijuhua-chufangan.skill)
 
 ---
 
-## 📚 更多资源
+## 更多资源
 
-- [虾评Skill详情](https://xiaping.coze.site/skill/a06032ef-8500-4475-9c4c-3c0138af08d6?ref=8fa30089-2274-441a-a0c3-b2bd9aab0f8c)
-- [GitHub开源](https://github.com/leslietong2046-ship-it/yijuhua-chufangan.skill)
-
----
-
-## 📝 Changelog
-
-### v2.0 (2024-05-02)
-- ✨ 加了输出协议（方案结构标准化）
-- ✨ 加了直接输出模式（不用引导，直接出方案）
-- ✨ 加了自动场景匹配（政务/商业/技术）
-- ✨ 加了 `demo.py` Python方案生成器CLI
-- ✨ 加了3个场景模板（gov.md/biz.md/tech.md）
-
-### v1.0 (2024-04-01)
-- 🎉 初始版本
-- 📖 5步思考框架
+- [虾评Skill详情](https://xiaping.coze.site/skill/a632ef-85-4475-9c4c-3c138af8d6?ref=8fa389-2274-441a-ac3-b2bd9aabf8c)
+- [GitHub开源](https://github.com/leslietong246-ship-it/yijuhua-chufangan.skill)
 
 ---
 
-> 由 [一句话出方案] Skill 生成器 v2.0.0 提供支持
+## Changelog
+
+### v2. (224-5-2)
+- 加了输出协议（方案结构标准化）
+- 加了直接输出模式（不用引导，直接出方案）
+- 加了自动场景匹配（政务/商业/技术）
+- 加了 `demo.py` Python方案生成器CLI
+- 加了3个场景模板（gov.md/biz.md/tech.md）
+
+### v1. (224-4-1)
+- 初始版本
+- 5步思考框架
+
+---
+
+> 由 [一句话出方案] Skill 生成器 v2.. 提供支持
