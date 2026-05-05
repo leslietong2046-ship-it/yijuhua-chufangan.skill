@@ -3,7 +3,7 @@ name: yijuhua-chufangan
 description: |
   一句话生成完整方案文档，支持政务/商业/技术多场景自动识别。
   触发关键词：一句话出方案、方案生成、政务方案、技术方案、商业方案、快速出方案、写方案、出框架、帮我出个、给我一个方案
-version: 1.0.3
+version: 2.0.0
 metadata:
   openclaw:
     requires:
@@ -277,3 +277,22 @@ metadata:
 - 或者描述一个需求场景
 
 **直接执行完整流程，输出符合"输出协议"格式的完整方案文档。**
+
+---
+
+## 🔧 CLI用法（命令行工具）
+
+如需在命令行快速生成方案，可使用 `references/yijuhua.py`：
+
+```bash
+# 查看帮助
+python references/yijuhua.py --help
+
+# 生成方案
+python references/yijuhua.py "帮我写一个产品上线方案"
+
+# 指定场景
+python references/yijuhua.py --template 政务 "帮我起草一份通知"
+```
+
+**注意**：CLI工具为可选辅助，主要使用方式是在对话中直接描述需求。
