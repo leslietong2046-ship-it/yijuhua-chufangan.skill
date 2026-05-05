@@ -3,7 +3,7 @@ name: yijuhua-chufangan
 description: |
   一句话生成完整方案文档，支持政务/商业/技术多场景自动识别。
   触发关键词：一句话出方案、方案生成、政务方案、技术方案、商业方案、快速出方案、写方案、出框架、帮我出个、给我一个方案
-version: 2.0.0
+version: 2.0.3
 metadata:
   openclaw:
     requires:
